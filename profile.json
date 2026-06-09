@@ -1,0 +1,11 @@
+{
+  "name": "Ethan Escamilla",
+  "email": "eaescamilla29@aol.com",
+  "phone": "424-391-5157",
+  "location": "Los Angeles, CA",
+  "years_experience": 5,
+  "current_title": "IT System Administrator",
+  "skills": ["Python", "JS"],
+  "work_experience": ["5 Years"],
+  "education": ["El Camino College"]
+}

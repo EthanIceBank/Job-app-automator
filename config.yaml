@@ -1,0 +1,39 @@
+# ─────────────────────────────────────────────
+# Job Automator Config
+# Copy this to config.yaml and fill in your details
+# ─────────────────────────────────────────────
+
+# What you're looking for
+search:
+  keywords:
+    - software engineer/Users/hewlettpackard/Downloads/job_automator/config.example.yaml
+    - IT System Administrator 
+    - Help Desk IT
+    - IT
+  location: "Los Angeles, CA"
+  remote_only: false
+  experience_level: mid   # internship | entry | associate | mid | director | executive
+
+# Filters
+filters:
+  exclude_companies:
+    - "Staffing Agency"
+    - "Recruiter Inc"
+  min_salary: 100000       # optional, best-effort (not all listings show salary)
+
+# LinkedIn settings
+linkedin:
+  enabled: true
+  easy_apply_only: true
+  max_jobs_per_run: 15
+  browser_profile_path: "./browser_profile_linkedin"
+  # Optional: default cover letter pasted into cover letter fields
+  default_cover_letter: 
+    I'm excited to apply for this role enough said. My background in the IT field
+    aligns well with your team's needs. I'd love to discuss further.
+
+# Indeed settings
+indeed:
+  enabled: true
+  max_jobs_per_run: 15
+  browser_profile_path: "./browser_profile_indeed"
